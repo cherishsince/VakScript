@@ -30,9 +30,12 @@ class Data:
     client_name_executable = 'LeagueClient.exe'
     game_name_executable = 'League of Legends.exe'
     game_name_window = 'League of Legends (TM) Client'
-    game_files_path = '\Riot Games\League of Legends'
-    settings_to_persist = 'DATA\CFG\defaults\SettingsToPersist.json'
-    persisted_settings = 'Config\PersistedSettings.json'
+    #game_files_path = '\Riot Games\League of Legends'
+    game_files_path = 'Game\League of Legends'
+    #settings_to_persist = 'DATA\CFG\defaults\SettingsToPersist.json'
+    settings_to_persist = 'LeagueClient\DATA\CFG\defaults\SettingsToPersist.json'
+    #persisted_settings = 'Config\PersistedSettings.json'
+    persisted_settings = 'Game\Config\PersistedSettings.json'
     settings_to_persist_path = path.join(game_files_path, settings_to_persist)
     persisted_settings_path = path.join(game_files_path, persisted_settings)
     url_activeplayer = 'https://127.0.0.1:2999/liveclientdata/activeplayer'
